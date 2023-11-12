@@ -1,7 +1,7 @@
 # Abaqus_Voronoi_toolbox
 Installing this ABAQUS toolbox is very simple:
 
-• Download the zipped file named ‘Abaqus_Voronoi_toolbox.zip’ from github link (https://github.com/Abaqus-Voronoitoolbox/Abaqus_Voronoi_toolbox),
+• Download the zipped file named ‘Abaqus_Voronoi_toolbox.zip’,
 
 • Unpack the zip file in a directory,
 

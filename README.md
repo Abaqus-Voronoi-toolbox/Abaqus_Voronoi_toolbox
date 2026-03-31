@@ -23,7 +23,7 @@ Gradient-structured metals represent an emerging class of advanced materials, ch
 • Import seeds into the toolbox: the generated seed coordinates are imported into the user-defined module (see Section [subsec:C.2.3]). After verifying all inputs within the module, the final RVE is generated.
 
 
-
+```python
 import numpy as np
 np.random.seed(42)
 num_points = 1000 #the number of seeds
@@ -33,6 +33,7 @@ B1 = np.abs(np.random.randn(num_points))
 B[:, 2] = 1 - B1 / np.max(B1)
 B[:, 1] = np.random.rand(num_points)
 np.savetxt('points.txt', B)
+```
 
 <img width="944" height="859" alt="A1" src="https://github.com/user-attachments/assets/6b8e9d58-b27e-40b2-b90c-dcbf0e9e7921" />
 

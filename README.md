@@ -9,7 +9,8 @@ A key advantage of the developed toolbox is its seamless integration into the st
 • Discretize the geometry using the ABAQUS ‘Mesh’ module, or import the mesh file from external software (if the geometry is already discretized, Step 1 can be skipped).
 
 • Launch the ABAQUS-Voronoi toolbox from the Plug-ins menu (see Fig. [fig:C.6]), specify the required parameters, and generate the Voronoi microstructure.
-[2024-09-21_173359.tif](https://github.com/user-attachments/files/26380113/2024-09-21_173359.tif)
+
+<img width="1244" height="208" alt="2024-09-21_173359" src="https://github.com/user-attachments/assets/628b2708-8bfc-4b0b-8a53-1aa649a78c7a" />
 
 
 # Advanced RVEs generated using the developed toolbox
@@ -20,6 +21,9 @@ Gradient-structured metals represent an emerging class of advanced materials, ch
 
  • Generate gradient seeds: define a set of seed coordinates with a prescribed spatial distribution. The Python script below demonstrates how to vary the seed density along the \mathit{\mathrm{Z}}-axis to produce the desired gradient.
 • Import seeds into the toolbox: the generated seed coordinates are imported into the user-defined module (see Section [subsec:C.2.3]). After verifying all inputs within the module, the final RVE is generated.
+
+
+
 import numpy as np
 np.random.seed(42)
 num_points = 1000 #the number of seeds
@@ -30,6 +34,8 @@ B[:, 2] = 1 - B1 / np.max(B1)
 B[:, 1] = np.random.rand(num_points)
 np.savetxt('points.txt', B)
 
+
+
 ## 2 RVE with a rough surface
 Surface quality and roughness are critical factors influencing component performance, particularly in localized necking predictions (Liu et al., 2020; Bong and Lee, 2021; Liu et al., 2022). Modeling these features is essential, but remains a major challenge for conventional RVE generators, which create the mesh and grain structure simultaneously. Fig. [fig:A2] shows a polycrystalline RVE with a rough top surface. The generation of this complex RVE has been carried out in two steps:
 
@@ -38,6 +44,7 @@ Surface quality and roughness are critical factors influencing component perform
 • The general module of the developed toolbox has been applied directly to the pre-meshed rough model to partition it into 200 grains.
 
 This example further highlights the flexibility and reliability of the proposed toolbox in partitioning the pre-existing meshes with complex geometric features.
+
 
 
 ## 3 Cylindrical RVE
@@ -63,4 +70,6 @@ while len(points) < num_points:
 points = np.array(points)
 np.savetxt('cylinder_points.txt', points)
 • The file containing the seed coordinates is imported into the user-defined module, which applies the Voronoi tessellation directly onto the pre-existing cylindrical mesh.
+
+
 

@@ -34,7 +34,7 @@ B[:, 2] = 1 - B1 / np.max(B1)
 B[:, 1] = np.random.rand(num_points)
 np.savetxt('points.txt', B)
 
-
+<img width="944" height="859" alt="A1" src="https://github.com/user-attachments/assets/6b8e9d58-b27e-40b2-b90c-dcbf0e9e7921" />
 
 ## 2 RVE with a rough surface
 Surface quality and roughness are critical factors influencing component performance, particularly in localized necking predictions (Liu et al., 2020; Bong and Lee, 2021; Liu et al., 2022). Modeling these features is essential, but remains a major challenge for conventional RVE generators, which create the mesh and grain structure simultaneously. Fig. [fig:A2] shows a polycrystalline RVE with a rough top surface. The generation of this complex RVE has been carried out in two steps:
@@ -72,4 +72,5 @@ np.savetxt('cylinder_points.txt', points)
 • The file containing the seed coordinates is imported into the user-defined module, which applies the Voronoi tessellation directly onto the pre-existing cylindrical mesh.
 
 
+<img width="758" height="692" alt="A3-1" src="https://github.com/user-attachments/assets/086b3e38-5b4e-430f-aa4d-4e16446be249" />
 

@@ -1,15 +1,12 @@
 # Abaqus_Voronoi_toolbox
-Installing this ABAQUS toolbox is very simple:
 
-• Download the zipped file named ‘Abaqus_Voronoi_toolbox.zip’,
+Usage instructions
 
-• Unpack the zip file in a directory,
+A key advantage of the developed toolbox is its seamless integration into the standard ABAQUS/CAE workflow as a plug-in. The generation of polycrystalline microstructures becomes therefore straightforward and can be summarized in three main steps:
 
-• Copy the extracted folder into any of the following local directories:
+• Create the model geometry within the ABAQUS ‘Part’ module, or import it from external CAD software.
 
-a. ‘C:\Users\user_name\abaqus_plugins’, it works for all your installed ABAQUS versions;
+• Discretize the geometry using the ABAQUS ‘Mesh’ module, or import the mesh file from external software (if the geometry is already discretized, Step 1 can be skipped).
 
-b. ABAQUS installation directory: ‘...\SIMULIA\CAE\plugins\xxxx’, where xxxx represents your installed ABAQUS
-version,
+• Launch the ABAQUS-Voronoi toolbox from the Plug-ins menu (see Fig. [fig:C.6]), specify the required parameters, and generate the Voronoi microstructure.
 
-• Launch ABAQUS CAE and you will find Abaqus_Voronoi_toolbox from the Plug-ins menu

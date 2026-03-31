@@ -46,6 +46,7 @@ Surface quality and roughness are critical factors influencing component perform
 This example further highlights the flexibility and reliability of the proposed toolbox in partitioning the pre-existing meshes with complex geometric features.
 
 
+<img width="915" height="887" alt="A2" src="https://github.com/user-attachments/assets/78b5ddee-dabf-4aa7-a5e9-11672ee603de" />
 
 ## 3 Cylindrical RVE
 

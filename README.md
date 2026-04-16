@@ -13,6 +13,18 @@ A key advantage of the developed toolbox is its seamless integration into the st
 <img width="1244" height="208" alt="2024-09-21_173359" src="https://github.com/user-attachments/assets/628b2708-8bfc-4b0b-8a53-1aa649a78c7a" />
 
 
+# Compare with NEPER software
+NEPER command: 
+• neper -T -n 200 -domain 'cube(1,1,1)' -morphooptiini "coo:file(random_points.txt)" -o ccc
+• neper -M ccc.tess -elttype hex -rcl 0.91
+• neper -V ccc.msh -dataelsetcol id -showelset "(id==1)||(id==120)" -cameraangle 15 -imagesize 1200:800 -print image_xxc
+• neper -V ccc.tess,ccc.msh -dataelsetcol id -imagesize 1200:800 -print image_18
+
+<img width="1255" height="960" alt="ScreenShot_2026-04-16_170931_628" src="https://github.com/user-attachments/assets/e0723aa7-3803-4c23-a99b-2efe45ffde94" />
+
+
+
+
 # Advanced RVEs generated using the developed toolbox
 
 

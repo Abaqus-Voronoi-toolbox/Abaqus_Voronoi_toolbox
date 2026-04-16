@@ -15,6 +15,7 @@ A key advantage of the developed toolbox is its seamless integration into the st
 
 # Compare with NEPER software
 NEPER command: 
+
 • neper -T -n 200 -domain 'cube(1,1,1)' -morphooptiini "coo:file(random_points.txt)" -o ccc
 
 • neper -M ccc.tess -elttype hex -rcl 0.91

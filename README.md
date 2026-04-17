@@ -14,9 +14,11 @@ A key advantage of the developed toolbox is its seamless integration into the st
 
 
 # Compare with NEPER software
+## The RVE model without void
+
 NEPER command: 
 
-• neper -T -n 200 -domain 'cube(1,1,1)' -morphooptiini "coo:file(random_points.txt)" -o ccc
+• neper -T -n 200 -domain 'cube(1,1,1)' -morphooptiini "coo:file(random_points.txt)" -o ccc  #random_points.txt in the download folder
 
 • neper -M ccc.tess -elttype hex -rcl 0.91
 
@@ -26,6 +28,8 @@ NEPER command:
 
 <img width="1255" height="960" alt="ScreenShot_2026-04-16_170931_628" src="https://github.com/user-attachments/assets/e0723aa7-3803-4c23-a99b-2efe45ffde94" />
 
+## The RVE model with void
+<img width="1010" height="459" alt="ScreenShot_2026-04-17_153233_512" src="https://github.com/user-attachments/assets/efd110ea-2cef-45ba-a0c1-f5a727ec5a2f" />
 
 
 

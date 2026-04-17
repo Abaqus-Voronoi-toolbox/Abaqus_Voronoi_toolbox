@@ -97,5 +97,23 @@ np.savetxt('cylinder_points.txt', points)
 • The file containing the seed coordinates is imported into the user-defined module, which applies the Voronoi tessellation directly onto the pre-existing cylindrical mesh.
 
 
+
 <img width="758" height="692" alt="A3-1" src="https://github.com/user-attachments/assets/086b3e38-5b4e-430f-aa4d-4e16446be249" />
 
+# Reference
+
+Li J, Weng GJ, Chen S, Wu X (2017) On strain hardening mechanism in gradient nanostructures. Int J Plast. 88:89–107. https://doi.org/10.1016/j.ijplas.2016.10.003
+
+Zhao F, Xie J, Zhu Y, Liu Q (2021) A novel dynamic technique to form reverse grain size gradient microstructure in pure copper. Mater Lett. 291:129581. https://doi.org/10.1016/j.matlet.2021.129581
+
+Liu CZ, Xiong QL, Wen A (2024) Shear localization in gradient high-entropy alloy at high strain rates: Crystal plasticity modeling. Extrem Mech Lett. 70:102194. https://doi.org/10.1016/j.eml.2024.102194
+
+Liu C, Xu W, Liu M, Zhang L (2020) Effect of strain path on roughness evolution of free surface during plastic deformation. Int J Mech Sci. 173. https://doi.org/10.1016/j.ijmecsci.2020.105475
+
+Bong HJ, Lee J (2021) Crystal plasticity finite element-Marciniak-Kuczynski approach with surface roughening effect in predicting formability of ultra-thin ferritic stainless steel sheets. Int J Mech Sci. 191:106066. https://doi.org/10.1016/j.ijmecsci.2020.106066
+
+Liu C, Xu W, Niu T, Chen Y (2022) Roughness evolution of constrained surface based on crystal plasticity finite element model and coupled Eulerian-Lagrangian method. Comput Mater Sci. 201:110900. https://doi.org/10.1016/j.commatsci.2021.110900
+
+Lim Y, Ha S (2023) RufGen: A plug-in for rough surface generation in Abaqus/CAE. SoftwareX. 22:101380. https://doi.org/10.1016/j.softx.2023.101380
+
+Tang X, Wang Z, Wang X, Deng L, Zhang M, Gong P, et al. (2023) Unraveling size-affected plastic heterogeneity and asymmetry during micro-scaled deformation of CP-Ti by non-local crystal plasticity modeling. Int J Plast. 170. https://doi.org/10.1016/j.ijplas.2023.103733

@@ -2,7 +2,7 @@
 
 # Usage instructions
 
-A key advantage of the developed toolbox is its seamless integration into the standard ABAQUS/CAE workflow as a plug-in. The generation of polycrystalline microstructures becomes therefore straightforward and can be summarized in three main steps:
+The developed toolbox supports ABAQUS versions ranging from 6.14 to 2025. The toolbox is compatible with both Python 2.x and Python 3.x environments, as ABAQUS/CAE employs Python 2.x for versions prior to 2022 and Python 3.x from version 2022 onward. A key advantage of the developed toolbox is its seamless integration into the standard ABAQUS/CAE workflow as a plug-in. The generation of polycrystalline microstructures becomes therefore straightforward and can be summarized in three main steps:
 
 • Create the model geometry within the ABAQUS ‘Part’ module, or import it from external CAD software.
 

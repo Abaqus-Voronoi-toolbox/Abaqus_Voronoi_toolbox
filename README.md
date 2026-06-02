@@ -1,4 +1,6 @@
 # Abaqus_Voronoi_toolbox
+If you are using this tool in your work, please cite the following paper:
+Zhou (2026) Flexible Generation of Polycrystalline RVEs on Pre‑Meshed Geometries: A Novel ABAQUS Toolbox for Crystal Plasticity Simulations. Integrating Materials and Manufacturing Innovation. [https://doi.org/10.1016/j.ijplas.2023.103733](https://doi.org/10.1007/s40192-026-00466-1)
 
 # Usage instructions
 

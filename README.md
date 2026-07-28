@@ -5,6 +5,7 @@ Zhou S, Ben Bettaieb M, Abed-Meraim F (2026) Flexible Generation of Polycrystall
 
 # Update information
 28-07-2026 add lines to remove the random/user-defined seeds added to the nodes.
+
 upcoming: grain boundary
 
 # Usage instructions

@@ -8,7 +8,7 @@ Zhou S, Ben Bettaieb M, Abed-Meraim F (2026) Flexible Generation of Polycrystall
 
 01-08-2026： 1) add seed points output for the general module (seed_points.csv in your work directory)
 
-  2) add uniform grains module (see below)
+  2) add the uniform grains module (see below)
              
 <img width="1828" height="675" alt="2026-08-01_074746" src="https://github.com/user-attachments/assets/e558cd22-ea9d-42d1-a220-09b5fa4e9dd8" />
 

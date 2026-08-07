@@ -13,6 +13,11 @@ Zhou S, Ben Bettaieb M, Abed-Meraim F (2026) Flexible Generation of Polycrystall
              
 <img width="1828" height="675" alt="2026-08-01_074746" src="https://github.com/user-attachments/assets/e558cd22-ea9d-42d1-a220-09b5fa4e9dd8" />
 
+08-08-2026：add Periodic Grains module
+
+<img width="1387" height="790" alt="2026-08-08_013542" src="https://github.com/user-attachments/assets/9f0eb11b-67b8-4a87-92ea-9378f285f41a" />
+
+
 upcoming: grain boundary
 
 # Usage instructions

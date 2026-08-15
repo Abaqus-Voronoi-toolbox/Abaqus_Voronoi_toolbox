@@ -20,6 +20,9 @@ Zhou S, Ben Bettaieb M, Abed-Meraim F (2026) Flexible Generation of Polycrystall
 14-08-2026： add one element one grain module
 <img width="639" height="350" alt="2026-08-14_120404" src="https://github.com/user-attachments/assets/491f9bc9-ac96-4852-9a0d-b2eead371908" />
 
+15-08-2026: add cube/square grain module
+
+<img width="1733" height="567" alt="2026-08-15_021759" src="https://github.com/user-attachments/assets/5d85bb9a-7e5a-4459-bd64-9bb22ddf052c" />
 
 
 upcoming: grain boundary

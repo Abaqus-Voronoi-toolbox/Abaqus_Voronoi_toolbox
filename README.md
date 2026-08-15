@@ -22,6 +22,8 @@ Zhou S, Ben Bettaieb M, Abed-Meraim F (2026) Flexible Generation of Polycrystall
 
 15-08-2026: add cube/square grain module
 
+Usage instruction: input parameters and then click the OK/Apply button. There is no need to create the geometry and mesh manually.
+
 <img width="1733" height="567" alt="2026-08-15_021759" src="https://github.com/user-attachments/assets/5d85bb9a-7e5a-4459-bd64-9bb22ddf052c" />
 
 

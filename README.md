@@ -30,6 +30,9 @@ Usage instruction: input parameters and then click the OK/Apply button. There is
 upcoming: grain boundary
 <img width="1315" height="663" alt="2026-09-29_202116" src="https://github.com/user-attachments/assets/46cb6106-92b7-4135-a720-6057fdb24540" />
 
+<img width="1808" height="698" alt="2026-09-29_2" src="https://github.com/user-attachments/assets/47f524df-2d3a-402a-96b7-5f43bc472459" />
+
+
 
 # Usage instructions
 

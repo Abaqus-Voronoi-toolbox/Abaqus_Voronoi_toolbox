@@ -28,6 +28,8 @@ Usage instruction: input parameters and then click the OK/Apply button. There is
 
 
 upcoming: grain boundary
+<img width="1315" height="663" alt="2026-09-29_202116" src="https://github.com/user-attachments/assets/46cb6106-92b7-4135-a720-6057fdb24540" />
+
 
 # Usage instructions
 
